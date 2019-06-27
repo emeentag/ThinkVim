@@ -75,6 +75,7 @@
     "eslint.autoFixOnSave": true,
     "languageserver": {
     },
-    "java.jdt.ls.vmargs": "-javaagent:./libs/lombok-1.18.4.jar -Xbootclasspath/a:./libs/lombok-1.18.4.jar"
+    "java.jdt.ls.vmargs": "-javaagent:./libs/lombok-1.18.4.jar -Xbootclasspath/a:./libs/lombok-1.18.4.jar",
+    "java.errors.incompleteClasspath.severity": "ignore"
 
 }
