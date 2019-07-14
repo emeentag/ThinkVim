@@ -4,13 +4,12 @@ set splitright
 
 colorscheme onedark
 
-nnoremap <silent> <F2> :<C-u>vnew<CR>
+nnoremap <silent> <F2> :<C-u>vsplit<CR>
 
-nnoremap <silent> <F3> :<C-u>new<CR>
+nnoremap <silent> <F3> :<C-u>split<CR>
 
 if dein#tap('nerdtree')
-        nnoremap <silent> <F4>
-                \ :<C-u>NERDTreeFind<CR>
+    nnoremap <silent> <F4> :<C-u>NERDTreeFind<CR>
 endif
 
 nnoremap <silent> <F5> :<C-u>new \| terminal<CR>
